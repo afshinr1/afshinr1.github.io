@@ -179,7 +179,10 @@ li{
 .profile-img{
     float: left;
     margin-right: 5rem;
+}
 
+.me-image{
+	border-radius: 50%;
 }
 .about-details{
     flex: 1;
