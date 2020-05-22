@@ -395,6 +395,21 @@ background-color: rebeccapurple;
     transition: color 700ms;
 }
 
-.info a:hover{
-    color: dodgerblue;
+
+
+.info-c{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+
+}
+
+.info-c i{
+color: aqua;
+font-size: 5rem;
+transition: color 650ms;
+}
+
+.info-c i:hover{
+    color: blueviolet;
 }
