@@ -416,12 +416,57 @@ transition: color 650ms;
 
 
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 1100px){
     body{
        
         background: url("../images/sitebg2.jpg")  no-repeat center fixed;
         background-size: cover;
     }
+
+    
+.menu-toggler{
+    top: 2rem;
+    right: 2rem;
+}
+
+.landing-text h1{
+    font-size: 5rem;
+}
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    
+}
+.info{
+    margin-bottom: 2rem;
+}
+.landing-text h6{
+    font-size: 1rem;
+}
+
+.nav-link{
+    font-size: 3.5rem;
+}
+
+.about .container{
+    flex-direction: column;
+}
+.profile-img{
+    margin: 0 0 7rem 0;
+}
+
+.portfolio-item{
+    flex-direction: column;
+}
+
+.portfolio-img{
+    margin: 0 0 2rem 0;
+    order: 1;
+}
+.portfolio-description{
+    margin: 0;
+    order: 2;
+}
 
     .landing-text h1{
         font-size: 10rem;
@@ -434,6 +479,7 @@ transition: color 650ms;
     .nav-list{
         flex-direction: column;
     }
+    
 
     li{
         margin: 2rem 0;
@@ -457,7 +503,13 @@ transition: color 650ms;
         flex-direction: column;
     }
     .my-skills{
+        display: flex;
         flex-direction: column;
+    }
+
+    .skill{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
     }
     .portfolio-img{
         margin: 0 0 2rem 0;
