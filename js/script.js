@@ -1,16 +1,3 @@
-/*
-$(document).ready(function (){
-   $('menu toggler').on('cilck', function(){
-       $(this).toggleClass('open');
-       $('top-nav').toggleClass('open');
-   });
-    $('.top-nav, .nav-link').on('cilck', function(){
-        $('menu-toggler').removeClass('open');
-        $('top-nav').removeClass('open');
-    });
-
-});
-*/
 
 window.onload=function(){
 
